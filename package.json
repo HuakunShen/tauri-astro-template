@@ -7,11 +7,16 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "tauri": "tauri"
   },
   "dependencies": {
-    "astro": "^4.8.2",
     "@astrojs/check": "^0.6.0",
+    "@tauri-apps/api": "2.0.0-beta.11",
+    "astro": "^4.8.2",
     "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "2.0.0-beta.17"
   }
 }
